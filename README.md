@@ -62,7 +62,7 @@
 |---------|-------------|
 | ` git branch -a` | Show all branches. |
 | ` git branch <new_branch_name> ` | Create new branch (Will not switch working tree to new branch). |
-| ` git checkout -b <new_branch_name>` |Create new branch out of current branch and switch to new branch. |
+| ` git checkout -b <new_branch_name>` |Create new branch out of the current branch and switch to new branch. |
 | ` git branch -m <old_branch_name> <new_branch_name>` | Rename branch. |
 | ` git push <remote_name> <branch_name>` | Push local branch to remote. |
 | ` git checkout <branch_name>` | Switch to specified branch. |
@@ -76,8 +76,8 @@
 |---------|-------------|
 | ` git stash save "message"` | Save chages with give message |
 | ` git stash list` | Show list of stash |
-| ` git stash apply stash@{n}` | Apply stashed file to current branch without deleting from stash, where `n` is the stash number |
-| ` git stash pop` | Apply last stash to current branch and delete stash |
+| ` git stash apply stash@{n}` | Apply stashed file to the current branch without deleting from stash, where `n` is the stash number. |
+| ` git stash pop` | Apply last stash to the current branch and delete stash |
 | ` git stash clear` | Clear all stash |
 | ` git checkout stash@{0} -- <filename>` | checkout file from last stash |
 | ` git stash show -p` | view last stash content |
